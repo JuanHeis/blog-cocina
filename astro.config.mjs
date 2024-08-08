@@ -9,6 +9,6 @@ export default defineConfig({
   base: "/blog-cocina",
   integrations: [mdx(), sitemap()],
   redirects: {
-    "/blog-cocina": "blog-cocina/blog",
+    "/blog-cocina": "/blog-cocina/blog",
   },
 });
