@@ -6,6 +6,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://juanheis.github.io/",
+  base: "/",
   integrations: [mdx(), sitemap()],
   redirects: {
     "/": "/blog",
