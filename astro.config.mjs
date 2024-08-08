@@ -6,9 +6,9 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://juanheis.github.io/",
-  base: "/",
+  base: "/blog-cocina",
   integrations: [mdx(), sitemap()],
   redirects: {
-    "/": "/blog",
+    "/blog-cocina": "blog-cocina/blog",
   },
 });
